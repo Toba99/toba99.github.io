@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Oxygen', sans-serif;
+}
+.row{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/odss.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li{
+	display: inline;
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 20px;
+}
+.main-nav li.active a{
+	border: 1px solid black;
+}
+.main-nav li a:hover{
+	border: 1px solid black;
+}
+.name h1{
+	text-transform: uppercase;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 270px;
+}
+.about-text{
+	background-color: black;
+	color: white;	
+}
+h2{
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+}
+p{
+	font-size: 160%;
+	line-height: 150%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify; 
+}
+img{
+	margin-bottom: -4px;
+}
+.background{
+	background-color: grey;
+	float: left;
+	width: 100%;
+	display: flex;
+}
+.position{
+	background-color: black;
+	float: right;
+	width: 100%;
+	display: flex;
+
+}
+.old{
+	align: left;
+	padding: 40px 10px;
+}
+.new{
+	align: right;
+	padding: 40px 10px;
+}
+.bottomtext{
+	float: left;
+	width: 100%;
+	background-color: black;
+}
+.onethird{
+	width: 33.3333333%;
+	float: left;
+	text-align: center;
+}
+#smiley{
+	background-color: grey;
+}
